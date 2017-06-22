@@ -1,0 +1,145 @@
+html{
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	width: 960px;
+	background-color: #ffffff;
+}
+
+.name {
+	background-color: #4aaaa5;
+	color: white;
+	margin-left: 100px;
+	padding: 20px 30px 20px 30px;
+	float: left;
+	font-family: Times;
+	margin-bottom: 0px;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.body {
+	background-image: url("../images/ep_naturalwhite.png");
+	height: 100%;
+	position: relative;
+	top: -9px;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 500px;
+    margin-bottom: -17px;
+}
+
+.mainSection {
+	width: 700px;
+	clear: both;
+	margin-left: 100px;
+}
+
+.left {
+	float: left;
+	background-color: #ffffff;
+	padding: 20px 20px 20px 20px;
+	width: 410px;
+}
+
+.right {
+	float: right;
+	background-color: #ffffff;
+	padding: 20px 30px 20px 30px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #4aaaa5;
+}
+
+.mainSectionHeader {
+	color: #4aaaa5;
+	font-size: 22px;
+	font-weight: bold;
+	padding-top: 6px;
+	margin-bottom: 15px;
+}
+
+.aboutMe {
+	height: 180px;
+	width: 166px;
+	float: left;
+	margin-right: 20px;
+}
+
+.aboutMehr {
+	margin-bottom: 20px;
+}
+
+.aboutMeText {
+	font-size: 15px;
+	color: grey;
+	line-height: 170%;
+}
+
+hr {
+	clear: both;
+	height: 2px;
+	background-color: lightgrey;
+	border: none;
+}
+
+.righthr {
+	height: 1px;
+	border: none;
+	background-color: lightgrey;
+}
+
+.bottomhr {
+	height: 9px;
+	border: none;
+	background-color: #4aaaa5;
+}
+
+.connectImages {
+	height: 40px;
+	width: 40px;
+}
+
+.nav{
+	margin-top: 25px;
+	margin-right: 170px;
+	list-style: none;
+	float: right;
+}
+
+li {
+	display: inline-block;
+	color: #777777;
+	padding: 0px;
+	padding-right: 4px;
+	padding-left: 7px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #777777;
+
+}
+
+.button {
+	width: 50px;
+}
+
+.borderLeft {
+	border-left: 1px solid #dddddd;
+}
+
+.footer {
+	clear: both;
+	text-align: center;
+	background-color: #666666;
+	margin-top: -9px;
+	padding: 30px;
+	color: lightgrey;
+	font-size: 10px;
+}
